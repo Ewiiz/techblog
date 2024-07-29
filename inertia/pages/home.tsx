@@ -10,7 +10,7 @@ export default function Home() {
       <Head title="Homepage" />
       {/*HEADER POUR MOBILE POUR L'INSTANT*/}
       <div className="space-y-5">
-        <div className="flex items-center justify-between py-6 px-5 lg:hidden">
+        <div className="flex items-center justify-between py-6 px-5">
           YOUR LOGO
           <Menu size={32} className="md:hidden" />
           <ul className="hidden md:flex space-x-3 text-lg">
