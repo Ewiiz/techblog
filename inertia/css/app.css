@@ -5,5 +5,10 @@
 @layer base {
   :root {
     --bg-dark: 9 13 31;
+    --color-accent-1: 105 65 198;
+    --color-accent-2: 53 56 205;
+    --color-accent-3: 193 21 116;
+    --text-secondary-light: 102 112 133;
+    --text-secondary-dark: 192 197 208;
   }
 }

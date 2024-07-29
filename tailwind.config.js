@@ -4,7 +4,14 @@ export default {
   theme: {
     extend: {
       backgroundColor: {
-        'bg-dark': 'rgb(var(--bg-dark))',
+        dark: 'rgb(var(--bg-dark))',
+      },
+      textColor: {
+        'accent-purple': 'rgb(var(--color-accent-1))',
+        'accent-blue': 'rgb(var(--color-accent-2))',
+        'accent-pink': 'rgb(var(--color-accent-3))',
+        'secondary-light': 'rgb(var(--text-secondary-light))',
+        'secondary-dark': 'rgb(var(--text-secondary-dark))',
       },
     },
   },
