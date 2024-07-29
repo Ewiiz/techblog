@@ -23,8 +23,7 @@ export default function DarkMode() {
 
   return (
     <div
-      // hidden md:bloc md:flex
-      className={`px-4 py-2 space-x-4 rounded-full max-w-max ${dark ? 'bg-white text-black' : 'bg-dark text-white'} `}
+      className={`px-4 py-2 space-x-4 rounded-full max-w-max ${dark ? 'bg-white text-black' : 'bg-dark text-white'} hidden md:bloc md:flex`}
     >
       <button
         onClick={() => darkModeHandler(false)}
