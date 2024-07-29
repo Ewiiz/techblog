@@ -44,7 +44,7 @@ export default function Home() {
           <header>
             <h2 className="text-2xl font-semibold">All blog posts</h2>
           </header>
-          <div className="space-y-40">
+          <div className="grid grid-cols-1 gap-32 md:grid-cols-2 md:grid-rows-2 md:gap-8">
             <BlogCard />
             <BlogCard />
             <BlogCard />
