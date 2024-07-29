@@ -4,17 +4,17 @@ export default function Footer() {
       <div className="mx-auto">
         <ul className="flex space-x-4">
           <li>
-            <a href="https://twitter.com" className="hover:underline">
+            <a target="_blank" href="https://twitter.com" className="hover:underline">
               Twitter
             </a>
           </li>
           <li>
-            <a href="https://linkedin.com" className="hover:underline">
-              LinkedIn
+            <a target="_blank" href="https://linkedin.com" className="hover:underline">
+              Linkedin
             </a>
           </li>
           <li>
-            <a href="mailto:someone@example.com" className="hover:underline">
+            <a target="_blank" href="#" className="hover:underline">
               Email
             </a>
           </li>
