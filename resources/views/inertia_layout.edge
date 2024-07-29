@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
   <meta charset="utf-8">
@@ -7,12 +7,19 @@
 
   <title inertia>AdonisJS x Inertia x React</title>
 
+{{--Pour le FOUC mais à voir s'y a mieux ?--}}
+{{--  <script>--}}
+{{--      if (localStorage.getItem('theme') === 'dark') {--}}
+{{--        document.documentElement.classList.add('dark')--}}
+{{--      }--}}
+{{--  </script>--}}
+
   @viteReactRefresh()
   @inertiaHead()
   @vite(['inertia/app/app.tsx', `inertia/pages/${page.component}.tsx`])
 </head>
 
-<body>
+<body class="transition-colors duration-500 dark:bg-red-400 dark:text-white">
   @inertia()
 </body>
 
