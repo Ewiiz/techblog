@@ -18,7 +18,7 @@ export default function BlogCard({ textRight = false }: BlogCardProps) {
             </Link>
           </h3>
         </header>
-        <p className="text-base text-secondary-light dark:text-secondary-dark">
+        <p className="text-base text-secondary-light mt-3 dark:text-secondary-dark">
           How do you create compelling presentations that wow your colleagues and impress your
           managers?
         </p>
