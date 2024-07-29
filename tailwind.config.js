@@ -2,7 +2,11 @@
 export default {
   content: ['./inertia/**/*.tsx', './resources/**/*.edge'],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+        'bg-dark': 'rgb(var(--bg-dark))',
+      },
+    },
   },
   plugins: [],
   darkMode: 'selector',
