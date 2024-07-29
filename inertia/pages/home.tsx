@@ -26,13 +26,13 @@ export default function Home() {
         </div>
       </div>
 
-      <main className="m-8 space-y-40 lg:mx-28 lg:space-y-2 lg:mt-16">
+      <main className="m-8 space-y-40 lg:mx-28 lg:space-y-40 lg:mt-16">
         {/*Section des blogs récents*/}
         <section>
           <header>
             <h2 className="text-2xl font-semibold">Recent blog posts</h2>
           </header>
-          <div className="grid gap-20 lg:grid-cols-2 lg:grid-rows-2 lg:gap-8">
+          <div className="grid gap-20 xl:grid-cols-2 xl:grid-rows-1 xl:gap-8">
             <BlogCard />
 
             <div>
@@ -40,7 +40,7 @@ export default function Home() {
               <BlogCard textRight />
             </div>
 
-            <div className="lg:col-span-2">
+            <div className="xl:col-span-2">
               <BlogCard textRight />
             </div>
           </div>
@@ -50,7 +50,7 @@ export default function Home() {
           <header>
             <h2 className="text-2xl font-semibold">All blog posts</h2>
           </header>
-          <div className="grid grid-cols-1 gap-32 md:grid-cols-2 md:grid-rows-2 md:gap-8 lg:grid-cols-3 lg:grid-rows-2">
+          <div className="grid grid-cols-1 gap-32 md:grid-cols-2 md:grid-rows-2 md:gap-8 xl:grid-cols-3 xl:grid-rows-2">
             <BlogCard />
             <BlogCard />
             <BlogCard />

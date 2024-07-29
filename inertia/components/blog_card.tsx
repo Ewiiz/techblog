@@ -22,7 +22,7 @@ export default function BlogCard({ textRight = false }: BlogCardProps) {
           How do you create compelling presentations that wow your colleagues and impress your
           managers?
         </p>
-        <div className={`space-x-2 h-full ${textRight ? 'mt-[67px]' : 'mt-6'}`}>
+        <div className={`space-x-2 h-full ${textRight ? 'mt-16' : 'mt-6'}`}>
           <span className="rounded-full bg-purple-100 text-accent-purple px-3 py-1">Design</span>
           <span className="rounded-full bg-blue-200 text-accent-blue px-3 py-1">Research</span>
           <span className="rounded-full bg-pink-100 text-accent-pink px-3 py-1">Presentation</span>
