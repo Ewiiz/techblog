@@ -13,7 +13,7 @@ export default function BlogCard({ textRight = false }: BlogCardProps) {
         <header className={`mt-8 ${textRight ? 'mb-3 md:mt-0' : ''}`}>
           <p className="font-semibold text-accent-purple text-sm">Sunday , 1 Jan 2023</p>
           <h3 className="font-semibold text-lg mt-3">
-            <Link href="#" className="flex justify-between items-center">
+            <Link href="/blog-details" className="flex justify-between items-center">
               UX review presentations <ExternalLink />
             </Link>
           </h3>
