@@ -1,7 +1,6 @@
 import { Head } from '@inertiajs/react'
-import { Menu } from 'lucide-react'
-import DarkMode from '~/components/dark_mode'
 import BlogCard from '~/components/blog_card'
+import Navbar from '~/components/nav_bar'
 
 export default function BlogDetails() {
   return (
@@ -9,17 +8,7 @@ export default function BlogDetails() {
       <Head title="Homepage" />
       {/*HEADER POUR MOBILE POUR L'INSTANT*/}
       <div className="space-y-5 lg:mx-28">
-        <div className="flex items-center justify-between py-6 px-5">
-          YOUR LOGO
-          <Menu size={32} className="md:hidden" />
-          <ul className="hidden md:flex space-x-5 text-lg lg:space-x-12">
-            <li>Blog</li>
-            <li>Projects</li>
-            <li>About</li>
-            <li>Newsletter</li>
-          </ul>
-          <DarkMode />
-        </div>
+        <Navbar />
       </div>
 
       <main className="flex m-8 md:space-x-8 lg:space-x-32 lg:mx-28">
